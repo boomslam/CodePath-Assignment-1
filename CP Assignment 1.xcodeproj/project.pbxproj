@@ -14,6 +14,13 @@
 		A32E63791C61E0AF008708F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32E63771C61E0AF008708F7 /* LaunchScreen.storyboard */; };
 		A32E63841C61E0AF008708F7 /* CP_Assignment_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E63831C61E0AF008708F7 /* CP_Assignment_1Tests.swift */; };
 		A32E638F1C61E0AF008708F7 /* CP_Assignment_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E638E1C61E0AF008708F7 /* CP_Assignment_1UITests.swift */; };
+		A358E3E71C632B0700499CEC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3E61C632B0700499CEC /* WelcomeViewController.swift */; };
+		A358E3E91C63B5FA00499CEC /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3E81C63B5FA00499CEC /* FilesViewController.swift */; };
+		A358E3EB1C63B60300499CEC /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3EA1C63B60300499CEC /* PhotosViewController.swift */; };
+		A358E3ED1C63B60D00499CEC /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3EC1C63B60D00499CEC /* FavoritesViewController.swift */; };
+		A358E3EF1C63B61500499CEC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3EE1C63B61500499CEC /* SettingsViewController.swift */; };
+		A358E3F11C63FC1E00499CEC /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3F01C63FC1E00499CEC /* CreateAccountViewController.swift */; };
+		A358E3F31C63FD7D00499CEC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3F21C63FD7D00499CEC /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		A32E638A1C61E0AF008708F7 /* CP Assignment 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CP Assignment 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32E638E1C61E0AF008708F7 /* CP_Assignment_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CP_Assignment_1UITests.swift; sourceTree = "<group>"; };
 		A32E63901C61E0AF008708F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A358E3E61C632B0700499CEC /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		A358E3E81C63B5FA00499CEC /* FilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		A358E3EA1C63B60300499CEC /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		A358E3EC1C63B60D00499CEC /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		A358E3EE1C63B61500499CEC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A358E3F01C63FC1E00499CEC /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		A358E3F21C63FD7D00499CEC /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,13 @@
 				A32E636E1C61E0AF008708F7 /* AppDelegate.swift */,
 				A32E63701C61E0AF008708F7 /* ViewController.swift */,
 				A32E63721C61E0AF008708F7 /* Main.storyboard */,
+				A358E3F21C63FD7D00499CEC /* SignInViewController.swift */,
+				A358E3F01C63FC1E00499CEC /* CreateAccountViewController.swift */,
+				A358E3E81C63B5FA00499CEC /* FilesViewController.swift */,
+				A358E3EA1C63B60300499CEC /* PhotosViewController.swift */,
+				A358E3EC1C63B60D00499CEC /* FavoritesViewController.swift */,
+				A358E3EE1C63B61500499CEC /* SettingsViewController.swift */,
+				A358E3E61C632B0700499CEC /* WelcomeViewController.swift */,
 				A32E63751C61E0AF008708F7 /* Assets.xcassets */,
 				A32E63771C61E0AF008708F7 /* LaunchScreen.storyboard */,
 				A32E637A1C61E0AF008708F7 /* Info.plist */,
@@ -256,8 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A358E3E71C632B0700499CEC /* WelcomeViewController.swift in Sources */,
 				A32E63711C61E0AF008708F7 /* ViewController.swift in Sources */,
+				A358E3EF1C63B61500499CEC /* SettingsViewController.swift in Sources */,
+				A358E3E91C63B5FA00499CEC /* FilesViewController.swift in Sources */,
+				A358E3F11C63FC1E00499CEC /* CreateAccountViewController.swift in Sources */,
+				A358E3F31C63FD7D00499CEC /* SignInViewController.swift in Sources */,
 				A32E636F1C61E0AF008708F7 /* AppDelegate.swift in Sources */,
+				A358E3ED1C63B60D00499CEC /* FavoritesViewController.swift in Sources */,
+				A358E3EB1C63B60300499CEC /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +510,7 @@
 				A32E63951C61E0AF008708F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A32E63961C61E0AF008708F7 /* Build configuration list for PBXNativeTarget "CP Assignment 1Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +519,7 @@
 				A32E63981C61E0AF008708F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A32E63991C61E0AF008708F7 /* Build configuration list for PBXNativeTarget "CP Assignment 1UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +528,7 @@
 				A32E639B1C61E0AF008708F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
