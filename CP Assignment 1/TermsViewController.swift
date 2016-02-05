@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.swift
+//  TermsViewController.swift
 //  CP Assignment 1
 //
 //  Created by Jess Lam on 2/4/16.
@@ -8,16 +8,14 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class TermsViewController: UIViewController {
 
-   
-    
-    
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         scrollView.contentSize = imageView.image!.size
+
         // Do any additional setup after loading the view.
     }
 

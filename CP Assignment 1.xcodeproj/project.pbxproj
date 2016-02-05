@@ -15,13 +15,14 @@
 		A32E638F1C61E0AF008708F7 /* CP_Assignment_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E638E1C61E0AF008708F7 /* CP_Assignment_1UITests.swift */; };
 		A358E3E71C632B0700499CEC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3E61C632B0700499CEC /* WelcomeViewController.swift */; };
 		A358E3E91C63B5FA00499CEC /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3E81C63B5FA00499CEC /* FilesViewController.swift */; };
-		A358E3EB1C63B60300499CEC /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3EA1C63B60300499CEC /* PhotosViewController.swift */; };
 		A358E3ED1C63B60D00499CEC /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3EC1C63B60D00499CEC /* FavoritesViewController.swift */; };
-		A358E3EF1C63B61500499CEC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3EE1C63B61500499CEC /* SettingsViewController.swift */; };
 		A358E3F11C63FC1E00499CEC /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3F01C63FC1E00499CEC /* CreateAccountViewController.swift */; };
 		A358E3F31C63FD7D00499CEC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3F21C63FD7D00499CEC /* SignInViewController.swift */; };
 		A358E3F71C64254500499CEC /* CreateRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3F61C64254500499CEC /* CreateRootViewController.swift */; };
 		A358E3F91C64435C00499CEC /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3F81C64435C00499CEC /* SignInRootViewController.swift */; };
+		A358E3FB1C6448A500499CEC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3FA1C6448A500499CEC /* SettingsViewController.swift */; };
+		A358E3FD1C646F4F00499CEC /* PhotoExistingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3FC1C646F4F00499CEC /* PhotoExistingViewController.swift */; };
+		A358E3FF1C64752000499CEC /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3FE1C64752000499CEC /* TermsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +57,14 @@
 		A32E63901C61E0AF008708F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A358E3E61C632B0700499CEC /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A358E3E81C63B5FA00499CEC /* FilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
-		A358E3EA1C63B60300499CEC /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		A358E3EC1C63B60D00499CEC /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
-		A358E3EE1C63B61500499CEC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A358E3F01C63FC1E00499CEC /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		A358E3F21C63FD7D00499CEC /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		A358E3F61C64254500499CEC /* CreateRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRootViewController.swift; sourceTree = "<group>"; };
 		A358E3F81C64435C00499CEC /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		A358E3FA1C6448A500499CEC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A358E3FC1C646F4F00499CEC /* PhotoExistingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoExistingViewController.swift; path = ../PhotoExistingViewController.swift; sourceTree = "<group>"; };
+		A358E3FE1C64752000499CEC /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,16 +115,17 @@
 		A32E636D1C61E0AF008708F7 /* CP Assignment 1 */ = {
 			isa = PBXGroup;
 			children = (
+				A358E3FC1C646F4F00499CEC /* PhotoExistingViewController.swift */,
 				A32E636E1C61E0AF008708F7 /* AppDelegate.swift */,
 				A32E63721C61E0AF008708F7 /* Main.storyboard */,
+				A358E3FE1C64752000499CEC /* TermsViewController.swift */,
+				A358E3FA1C6448A500499CEC /* SettingsViewController.swift */,
 				A358E3F81C64435C00499CEC /* SignInRootViewController.swift */,
 				A358E3F61C64254500499CEC /* CreateRootViewController.swift */,
 				A358E3F21C63FD7D00499CEC /* SignInViewController.swift */,
 				A358E3F01C63FC1E00499CEC /* CreateAccountViewController.swift */,
 				A358E3E81C63B5FA00499CEC /* FilesViewController.swift */,
-				A358E3EA1C63B60300499CEC /* PhotosViewController.swift */,
 				A358E3EC1C63B60D00499CEC /* FavoritesViewController.swift */,
-				A358E3EE1C63B61500499CEC /* SettingsViewController.swift */,
 				A358E3E61C632B0700499CEC /* WelcomeViewController.swift */,
 				A32E63751C61E0AF008708F7 /* Assets.xcassets */,
 				A32E63771C61E0AF008708F7 /* LaunchScreen.storyboard */,
@@ -280,16 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A358E3FF1C64752000499CEC /* TermsViewController.swift in Sources */,
 				A358E3F91C64435C00499CEC /* SignInRootViewController.swift in Sources */,
 				A358E3E71C632B0700499CEC /* WelcomeViewController.swift in Sources */,
-				A358E3EF1C63B61500499CEC /* SettingsViewController.swift in Sources */,
 				A358E3E91C63B5FA00499CEC /* FilesViewController.swift in Sources */,
+				A358E3FB1C6448A500499CEC /* SettingsViewController.swift in Sources */,
 				A358E3F71C64254500499CEC /* CreateRootViewController.swift in Sources */,
 				A358E3F11C63FC1E00499CEC /* CreateAccountViewController.swift in Sources */,
 				A358E3F31C63FD7D00499CEC /* SignInViewController.swift in Sources */,
 				A32E636F1C61E0AF008708F7 /* AppDelegate.swift in Sources */,
+				A358E3FD1C646F4F00499CEC /* PhotoExistingViewController.swift in Sources */,
 				A358E3ED1C63B60D00499CEC /* FavoritesViewController.swift in Sources */,
-				A358E3EB1C63B60300499CEC /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
