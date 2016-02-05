@@ -36,9 +36,6 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y2c-Oe-e7X">
                                         <rect key="frame" x="673" y="391" width="254" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <segue destination="cb5-Ao-JV5" kind="modal" id="pFq-Rb-CdQ"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0bC-OO-CLJ">
                                         <rect key="frame" x="777" y="462" width="46" height="30"/>
@@ -848,7 +845,7 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qsN-7D-NFw"/>
-        <segue reference="pFq-Rb-CdQ"/>
+        <segue reference="35N-pM-Caf"/>
+        <segue reference="wtx-cN-oHV"/>
     </inferredMetricsTieBreakers>
 </document>
