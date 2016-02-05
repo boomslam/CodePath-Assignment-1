@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A32E636F1C61E0AF008708F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E636E1C61E0AF008708F7 /* AppDelegate.swift */; };
-		A32E63711C61E0AF008708F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E63701C61E0AF008708F7 /* ViewController.swift */; };
 		A32E63741C61E0AF008708F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32E63721C61E0AF008708F7 /* Main.storyboard */; };
 		A32E63761C61E0AF008708F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32E63751C61E0AF008708F7 /* Assets.xcassets */; };
 		A32E63791C61E0AF008708F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32E63771C61E0AF008708F7 /* LaunchScreen.storyboard */; };
@@ -21,6 +20,8 @@
 		A358E3EF1C63B61500499CEC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3EE1C63B61500499CEC /* SettingsViewController.swift */; };
 		A358E3F11C63FC1E00499CEC /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3F01C63FC1E00499CEC /* CreateAccountViewController.swift */; };
 		A358E3F31C63FD7D00499CEC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3F21C63FD7D00499CEC /* SignInViewController.swift */; };
+		A358E3F71C64254500499CEC /* CreateRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3F61C64254500499CEC /* CreateRootViewController.swift */; };
+		A358E3F91C64435C00499CEC /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3F81C64435C00499CEC /* SignInRootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,6 @@
 /* Begin PBXFileReference section */
 		A32E636B1C61E0AF008708F7 /* CP Assignment 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CP Assignment 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32E636E1C61E0AF008708F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A32E63701C61E0AF008708F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A32E63731C61E0AF008708F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A32E63751C61E0AF008708F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A32E63781C61E0AF008708F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +61,8 @@
 		A358E3EE1C63B61500499CEC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A358E3F01C63FC1E00499CEC /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		A358E3F21C63FD7D00499CEC /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		A358E3F61C64254500499CEC /* CreateRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRootViewController.swift; sourceTree = "<group>"; };
+		A358E3F81C64435C00499CEC /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				A32E636E1C61E0AF008708F7 /* AppDelegate.swift */,
-				A32E63701C61E0AF008708F7 /* ViewController.swift */,
 				A32E63721C61E0AF008708F7 /* Main.storyboard */,
+				A358E3F81C64435C00499CEC /* SignInRootViewController.swift */,
+				A358E3F61C64254500499CEC /* CreateRootViewController.swift */,
 				A358E3F21C63FD7D00499CEC /* SignInViewController.swift */,
 				A358E3F01C63FC1E00499CEC /* CreateAccountViewController.swift */,
 				A358E3E81C63B5FA00499CEC /* FilesViewController.swift */,
@@ -277,10 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A358E3F91C64435C00499CEC /* SignInRootViewController.swift in Sources */,
 				A358E3E71C632B0700499CEC /* WelcomeViewController.swift in Sources */,
-				A32E63711C61E0AF008708F7 /* ViewController.swift in Sources */,
 				A358E3EF1C63B61500499CEC /* SettingsViewController.swift in Sources */,
 				A358E3E91C63B5FA00499CEC /* FilesViewController.swift in Sources */,
+				A358E3F71C64254500499CEC /* CreateRootViewController.swift in Sources */,
 				A358E3F11C63FC1E00499CEC /* CreateAccountViewController.swift in Sources */,
 				A358E3F31C63FD7D00499CEC /* SignInViewController.swift in Sources */,
 				A32E636F1C61E0AF008708F7 /* AppDelegate.swift in Sources */,

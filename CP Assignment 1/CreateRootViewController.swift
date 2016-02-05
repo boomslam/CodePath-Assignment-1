@@ -1,5 +1,5 @@
 //
-//  CreateAccountViewController.swift
+//  CreateRootViewController.swift
 //  CP Assignment 1
 //
 //  Created by Jess Lam on 2/4/16.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class CreateAccountViewController: UIViewController {
+class CreateRootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController!.popViewControllerAnimated(true)
+        performSegueWithIdentifier("firstSegue", sender: self)
 
         // Do any additional setup after loading the view.
     }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Ily-59-OwS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="LbR-NI-3vg">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -36,12 +36,15 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y2c-Oe-e7X">
                                         <rect key="frame" x="673" y="391" width="254" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="cb5-Ao-JV5" kind="modal" id="IAR-OW-Z0P"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0bC-OO-CLJ">
                                         <rect key="frame" x="777" y="462" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="144-hB-5oD" kind="modal" id="qsN-7D-NFw"/>
+                                            <segue destination="144-hB-5oD" kind="modal" id="uV6-GI-sqg"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -58,7 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DHf-0P-Xd3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="560" y="-390"/>
+            <point key="canvasLocation" x="534" y="214"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XKA-4g-3A7">
@@ -76,10 +79,10 @@
             </objects>
             <point key="canvasLocation" x="1308" y="400"/>
         </scene>
-        <!--Create Account Root View Controller-->
+        <!--Create Root View Controller-->
         <scene sceneID="qhr-At-TaN">
             <objects>
-                <viewController id="WmY-py-IHB" customClass="CreateAccountRootViewController" sceneMemberID="viewController">
+                <viewController id="WmY-py-IHB" customClass="CreateRootViewController" customModule="CP_Assignment_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cuV-jl-DPU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -93,7 +96,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="OHY-m8-tff"/>
                     <connections>
-                        <segue destination="31p-h2-6uU" kind="push" id="r35-iq-a9u"/>
+                        <segue destination="31p-h2-6uU" kind="push" identifier="firstSegue" id="r35-iq-a9u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vqy-rr-Evu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -103,6 +106,7 @@
         <!--Create Account View Controller-->
         <scene sceneID="aX7-bY-jLP">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lC7-qI-lCN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="31p-h2-6uU" customClass="CreateAccountViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tmI-4P-1NF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -121,7 +125,6 @@
                         <segue destination="bWu-QB-wrc" kind="modal" id="44k-MC-Zhg"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lC7-qI-lCN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2141" y="400"/>
         </scene>
@@ -168,17 +171,11 @@
                                 <rect key="frame" x="137" y="393" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="cb5-Ao-JV5" kind="modal" identifier="firstSegue" id="wtx-cN-oHV"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0AQ-ur-lFG">
                                 <rect key="frame" x="137" y="462" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="144-hB-5oD" kind="modal" id="35N-pM-Caf"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -210,7 +207,7 @@
         <!--Sign In Root View Controller-->
         <scene sceneID="Kpy-b4-yAB">
             <objects>
-                <viewController id="521-q2-PSz" customClass="SignInRootViewController" sceneMemberID="viewController">
+                <viewController id="521-q2-PSz" customClass="SignInRootViewController" customModule="CP_Assignment_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JLe-Z1-B54">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -224,7 +221,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="NMf-jp-beh"/>
                     <connections>
-                        <segue destination="J1C-RC-eWN" kind="push" id="Gnc-iz-me1"/>
+                        <segue destination="J1C-RC-eWN" kind="push" identifier="secondSegue" id="Gnc-iz-me1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ks7-nM-Squ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -845,7 +842,6 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="35N-pM-Caf"/>
-        <segue reference="wtx-cN-oHV"/>
+        <segue reference="IAR-OW-Z0P"/>
     </inferredMetricsTieBreakers>
 </document>
