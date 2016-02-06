@@ -1,18 +1,18 @@
 //
-//  CreateAccountViewController.swift
+//  PasswordHelpViewController.swift
 //  CP Assignment 1
 //
-//  Created by Jess Lam on 2/4/16.
+//  Created by Jess Lam on 2/5/16.
 //  Copyright © 2016 Jess Lam. All rights reserved.
 //
 
 import UIKit
 
-class CreateAccountViewController: UIViewController {
-    
+class PasswordHelpViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
     }
 
@@ -21,7 +21,9 @@ class CreateAccountViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func onTapCancel(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

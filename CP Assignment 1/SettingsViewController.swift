@@ -2,7 +2,7 @@
 //  SettingsViewController.swift
 //  CP Assignment 1
 //
-//  Created by Jess Lam on 2/4/16.
+//  Created by Jess Lam on 2/5/16.
 //  Copyright © 2016 Jess Lam. All rights reserved.
 //
 
@@ -10,14 +10,11 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
-   
+    @IBOutlet weak var settingsScrollView: UIScrollView!
     
-    
-    @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        scrollView.contentSize = imageView.image!.size
+        settingsScrollView.contentSize = CGSize(width: 320, height: 1300)
         // Do any additional setup after loading the view.
     }
 

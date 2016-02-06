@@ -1,21 +1,20 @@
 //
-//  PhotoExistingViewController.swift
+//  PhotosViewController.swift
 //  CP Assignment 1
 //
-//  Created by Jess Lam on 2/4/16.
+//  Created by Jess Lam on 2/5/16.
 //  Copyright © 2016 Jess Lam. All rights reserved.
 //
 
 import UIKit
 
-class PhotoExistingViewController: UIViewController {
-
-   
-    @IBOutlet var scrollView: UIScrollView!
-    @IBOutlet weak var imageView: UIImageView!
+class PhotosViewController: UIViewController {
+    
+    @IBOutlet weak var photoScrollView: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        scrollView.contentSize = imageView.image!.size
+        photoScrollView.contentSize = CGSize(width: 320, height: 1000)
         // Do any additional setup after loading the view.
     }
 

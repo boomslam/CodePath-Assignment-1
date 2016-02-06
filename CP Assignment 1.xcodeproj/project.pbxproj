@@ -20,9 +20,11 @@
 		A358E3F31C63FD7D00499CEC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3F21C63FD7D00499CEC /* SignInViewController.swift */; };
 		A358E3F71C64254500499CEC /* CreateRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3F61C64254500499CEC /* CreateRootViewController.swift */; };
 		A358E3F91C64435C00499CEC /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3F81C64435C00499CEC /* SignInRootViewController.swift */; };
-		A358E3FB1C6448A500499CEC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3FA1C6448A500499CEC /* SettingsViewController.swift */; };
-		A358E3FD1C646F4F00499CEC /* PhotoExistingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3FC1C646F4F00499CEC /* PhotoExistingViewController.swift */; };
 		A358E3FF1C64752000499CEC /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358E3FE1C64752000499CEC /* TermsViewController.swift */; };
+		A3FA72291C6591CD0000A640 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA72281C6591CD0000A640 /* PhotosViewController.swift */; };
+		A3FA722B1C659C020000A640 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA722A1C659C020000A640 /* SettingsViewController.swift */; };
+		A3FA72671C65CC290000A640 /* SettingsNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA72661C65CC290000A640 /* SettingsNewViewController.swift */; };
+		A3FA72691C65CF4B0000A640 /* PasswordHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA72681C65CF4B0000A640 /* PasswordHelpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +64,11 @@
 		A358E3F21C63FD7D00499CEC /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		A358E3F61C64254500499CEC /* CreateRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRootViewController.swift; sourceTree = "<group>"; };
 		A358E3F81C64435C00499CEC /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
-		A358E3FA1C6448A500499CEC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		A358E3FC1C646F4F00499CEC /* PhotoExistingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoExistingViewController.swift; path = ../PhotoExistingViewController.swift; sourceTree = "<group>"; };
 		A358E3FE1C64752000499CEC /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		A3FA72281C6591CD0000A640 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		A3FA722A1C659C020000A640 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A3FA72661C65CC290000A640 /* SettingsNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsNewViewController.swift; sourceTree = "<group>"; };
+		A3FA72681C65CF4B0000A640 /* PasswordHelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordHelpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +119,13 @@
 		A32E636D1C61E0AF008708F7 /* CP Assignment 1 */ = {
 			isa = PBXGroup;
 			children = (
-				A358E3FC1C646F4F00499CEC /* PhotoExistingViewController.swift */,
+				A3FA72281C6591CD0000A640 /* PhotosViewController.swift */,
 				A32E636E1C61E0AF008708F7 /* AppDelegate.swift */,
 				A32E63721C61E0AF008708F7 /* Main.storyboard */,
+				A3FA72681C65CF4B0000A640 /* PasswordHelpViewController.swift */,
+				A3FA72661C65CC290000A640 /* SettingsNewViewController.swift */,
+				A3FA722A1C659C020000A640 /* SettingsViewController.swift */,
 				A358E3FE1C64752000499CEC /* TermsViewController.swift */,
-				A358E3FA1C6448A500499CEC /* SettingsViewController.swift */,
 				A358E3F81C64435C00499CEC /* SignInRootViewController.swift */,
 				A358E3F61C64254500499CEC /* CreateRootViewController.swift */,
 				A358E3F21C63FD7D00499CEC /* SignInViewController.swift */,
@@ -285,15 +291,17 @@
 			files = (
 				A358E3FF1C64752000499CEC /* TermsViewController.swift in Sources */,
 				A358E3F91C64435C00499CEC /* SignInRootViewController.swift in Sources */,
+				A3FA722B1C659C020000A640 /* SettingsViewController.swift in Sources */,
 				A358E3E71C632B0700499CEC /* WelcomeViewController.swift in Sources */,
 				A358E3E91C63B5FA00499CEC /* FilesViewController.swift in Sources */,
-				A358E3FB1C6448A500499CEC /* SettingsViewController.swift in Sources */,
 				A358E3F71C64254500499CEC /* CreateRootViewController.swift in Sources */,
 				A358E3F11C63FC1E00499CEC /* CreateAccountViewController.swift in Sources */,
 				A358E3F31C63FD7D00499CEC /* SignInViewController.swift in Sources */,
+				A3FA72671C65CC290000A640 /* SettingsNewViewController.swift in Sources */,
 				A32E636F1C61E0AF008708F7 /* AppDelegate.swift in Sources */,
-				A358E3FD1C646F4F00499CEC /* PhotoExistingViewController.swift in Sources */,
 				A358E3ED1C63B60D00499CEC /* FavoritesViewController.swift in Sources */,
+				A3FA72691C65CF4B0000A640 /* PasswordHelpViewController.swift in Sources */,
+				A3FA72291C6591CD0000A640 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
