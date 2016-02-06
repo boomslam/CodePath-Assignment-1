@@ -10,6 +10,7 @@ import UIKit
 
 class SignInViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,10 +23,8 @@ class SignInViewController: UIViewController {
     }
     
    
-    @IBAction func onCancelTap(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: nil)
-    }
 
+  
     /*
     // MARK: - Navigation
 
