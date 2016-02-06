@@ -94,6 +94,20 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vg0-n8-qdb">
+                                <rect key="frame" x="12" y="433" width="299" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="J1C-RC-eWN" kind="modal" id="cNN-lf-Wb4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nhK-kI-2AT">
+                                <rect key="frame" x="20" y="478" width="271" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="31p-h2-6uU" kind="modal" id="KuG-Mw-YiW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -118,21 +132,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="i98-iu-Cf0">
-                                <rect key="frame" x="41" y="87" width="266" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="EQc-Fw-29x" kind="push" id="5aR-1J-Y7r"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="daa-zC-ML6">
-                                <rect key="frame" x="12" y="260" width="295" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="bWu-QB-wrc" kind="modal" id="Zli-Sp-TpG"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="Wdg-Iz-mfL" userLabel="Last Name">
                                 <rect key="frame" x="112" y="131" width="188" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -157,15 +156,25 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <navigationBar contentMode="scaleToFill" id="pE6-uD-Bar">
+                                <rect key="frame" x="0.0" y="21" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Sign Up" id="OV1-xc-JRI">
+                                        <barButtonItem key="leftBarButtonItem" title="Welcome" id="aQd-wd-W6w"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Create" id="6St-T3-Jof">
+                                            <connections>
+                                                <segue destination="bWu-QB-wrc" kind="modal" id="KXd-3O-urr"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Sign Up" id="qUl-1b-Qrj">
-                        <barButtonItem key="rightBarButtonItem" title="Create" id="pox-dy-zF0">
-                            <connections>
-                                <segue destination="0Ie-gg-pyn" kind="modal" id="UeO-iq-rks"/>
-                            </connections>
-                        </barButtonItem>
+                    <navigationItem key="navigationItem" title="Sign Up" id="VPv-9g-6FU">
+                        <barButtonItem key="rightBarButtonItem" title="Create" id="oOJ-Su-yDe"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lC7-qI-lCN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -234,7 +243,7 @@
         <!--Sign In Navigation Controller-->
         <scene sceneID="moc-x4-X6R">
             <objects>
-                <navigationController navigationBarHidden="YES" id="144-hB-5oD" userLabel="Sign In Navigation Controller" sceneMemberID="viewController">
+                <navigationController id="144-hB-5oD" userLabel="Sign In Navigation Controller" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="kdc-Rp-ekn"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="awd-rL-TPg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -248,7 +257,7 @@
             </objects>
             <point key="canvasLocation" x="1308" y="1072"/>
         </scene>
-        <!--Sign In Root View Controller-->
+        <!--Welcome-->
         <scene sceneID="Kpy-b4-yAB">
             <objects>
                 <viewController id="521-q2-PSz" customClass="SignInRootViewController" customModule="CP_Assignment_1" customModuleProvider="target" sceneMemberID="viewController">
@@ -260,10 +269,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ziF-Bo-cHI">
+                                <rect key="frame" x="13" y="433" width="295" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="J1C-RC-eWN" kind="modal" id="EQ5-9K-QHa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0xv-4c-sjR">
+                                <rect key="frame" x="6" y="474" width="302" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="31p-h2-6uU" kind="modal" id="NCa-ZH-aiS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="NMf-jp-beh"/>
+                    <navigationItem key="navigationItem" title="Welcome" id="NMf-jp-beh"/>
                     <connections>
                         <segue destination="J1C-RC-eWN" kind="push" identifier="secondSegue" id="Gnc-iz-me1"/>
                     </connections>
@@ -272,7 +295,7 @@
             </objects>
             <point key="canvasLocation" x="1712" y="1072"/>
         </scene>
-        <!--Sign In View Controller-->
+        <!--Sign In-->
         <scene sceneID="vn4-uc-GQj">
             <objects>
                 <viewController id="J1C-RC-eWN" customClass="SignInViewController" sceneMemberID="viewController">
@@ -305,6 +328,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Dropbox" id="7xY-wO-cf8">
+                                        <barButtonItem key="leftBarButtonItem" title="Welcome" id="zGi-7n-YGi"/>
                                         <barButtonItem key="rightBarButtonItem" title="Sign In" id="Vaq-Ny-ECF">
                                             <connections>
                                                 <segue destination="8Y9-ls-T0s" kind="modal" id="gWo-dJ-iDz"/>
@@ -323,13 +347,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="nKR-JC-kb2">
+                    <navigationItem key="navigationItem" title="Sign In" id="nKR-JC-kb2">
                         <barButtonItem key="backBarButtonItem" title="welcome" id="Jv4-fU-xk7"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mah-z7-12R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2095" y="1072"/>
+            <point key="canvasLocation" x="2135" y="1072"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="jgO-1Y-sFz">
@@ -1070,10 +1094,12 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="gWo-dJ-iDz"/>
+        <segue reference="Gnc-iz-me1"/>
         <segue reference="uV6-GI-sqg"/>
         <segue reference="IAR-OW-Z0P"/>
-        <segue reference="UeO-iq-rks"/>
-        <segue reference="Zli-Sp-TpG"/>
+        <segue reference="NCa-ZH-aiS"/>
+        <segue reference="KXd-3O-urr"/>
         <segue reference="Ea5-zi-haF"/>
+        <segue reference="mZu-o9-7TN"/>
     </inferredMetricsTieBreakers>
 </document>
