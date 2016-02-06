@@ -25,6 +25,7 @@
 		A3FA722B1C659C020000A640 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA722A1C659C020000A640 /* SettingsViewController.swift */; };
 		A3FA72671C65CC290000A640 /* SettingsNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA72661C65CC290000A640 /* SettingsNewViewController.swift */; };
 		A3FA72691C65CF4B0000A640 /* PasswordHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA72681C65CF4B0000A640 /* PasswordHelpViewController.swift */; };
+		A3FA726B1C65E03A0000A640 /* FileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA726A1C65E03A0000A640 /* FileDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		A3FA722A1C659C020000A640 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A3FA72661C65CC290000A640 /* SettingsNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsNewViewController.swift; sourceTree = "<group>"; };
 		A3FA72681C65CF4B0000A640 /* PasswordHelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordHelpViewController.swift; sourceTree = "<group>"; };
+		A3FA726A1C65E03A0000A640 /* FileDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				A3FA72281C6591CD0000A640 /* PhotosViewController.swift */,
 				A32E636E1C61E0AF008708F7 /* AppDelegate.swift */,
 				A32E63721C61E0AF008708F7 /* Main.storyboard */,
+				A3FA726A1C65E03A0000A640 /* FileDetailViewController.swift */,
 				A3FA72681C65CF4B0000A640 /* PasswordHelpViewController.swift */,
 				A3FA72661C65CC290000A640 /* SettingsNewViewController.swift */,
 				A3FA722A1C659C020000A640 /* SettingsViewController.swift */,
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A358E3FF1C64752000499CEC /* TermsViewController.swift in Sources */,
+				A3FA726B1C65E03A0000A640 /* FileDetailViewController.swift in Sources */,
 				A358E3F91C64435C00499CEC /* SignInRootViewController.swift in Sources */,
 				A3FA722B1C659C020000A640 /* SettingsViewController.swift in Sources */,
 				A358E3E71C632B0700499CEC /* WelcomeViewController.swift in Sources */,

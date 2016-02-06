@@ -279,13 +279,24 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yWa-5C-Ewj">
-                                <rect key="frame" x="137" y="107" width="46" height="30"/>
+                                <rect key="frame" x="12" y="107" width="51" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="AFL-AM-OIY" kind="modal" id="c8B-mx-7we"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="mAs-j2-YR5" userLabel="Email Text Field">
+                                <rect key="frame" x="112" y="106" width="140" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="cso-BF-doX" userLabel="Password Text Field">
+                                <rect key="frame" x="112" y="151" width="140" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -706,6 +717,38 @@
             </objects>
             <point key="canvasLocation" x="1165" y="2507"/>
         </scene>
+        <!--File Detail View Controller-->
+        <scene sceneID="fmZ-pQ-DA2">
+            <objects>
+                <viewController id="imW-PG-g2X" customClass="FileDetailViewController" customModule="CP_Assignment_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QRp-Ue-a4x">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="existing_files_1" id="Svk-Vz-RFR">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="454"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Apt-JA-vF5">
+                                <rect key="frame" x="20" y="462" width="108" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="  Favorite" image="favorite_btn">
+                                    <color key="titleColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" image="favorited_btn"/>
+                                <connections>
+                                    <action selector="onButton:" destination="imW-PG-g2X" eventType="touchUpInside" id="2fg-1D-wTX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="o5n-QO-uTO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fgJ-Nd-nS7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="760" y="3171"/>
+        </scene>
         <!--Files-->
         <scene sceneID="DlC-9j-BCD">
             <objects>
@@ -718,6 +761,13 @@
                                 <rect key="frame" x="0.0" y="63" width="320" height="454"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lw1-bu-y0R">
+                                <rect key="frame" x="47" y="269" width="253" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="imW-PG-g2X" kind="push" id="Y6Z-he-1XX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -798,6 +848,10 @@
                                 <rect key="frame" x="0.0" y="65" width="320" height="417"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Qwi-ub-C13">
+                                <rect key="frame" x="13" y="84" width="293" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -971,8 +1025,11 @@
         <image name="empty_files" width="320" height="454"/>
         <image name="empty_photos" width="320" height="454"/>
         <image name="existing_files" width="320" height="454"/>
+        <image name="existing_files_1" width="320" height="454"/>
         <image name="existing_photos" width="320" height="725"/>
+        <image name="favorite_btn" width="26" height="25"/>
         <image name="favorited" width="320" height="417"/>
+        <image name="favorited_btn" width="26" height="25"/>
         <image name="favorites_tab" width="30" height="30"/>
         <image name="files_tab" width="30" height="30"/>
         <image name="logged_out" width="320" height="568"/>
@@ -990,8 +1047,8 @@
     <inferredMetricsTieBreakers>
         <segue reference="WaF-W8-AjJ"/>
         <segue reference="MYr-3S-l4V"/>
-        <segue reference="gqS-eA-1I9"/>
-        <segue reference="guw-Cl-mX2"/>
+        <segue reference="mZu-o9-7TN"/>
         <segue reference="JEr-OP-6Hh"/>
+        <segue reference="guw-Cl-mX2"/>
     </inferredMetricsTieBreakers>
 </document>
