@@ -18,7 +18,6 @@ Recreating the Dropbox new user registration flow and sign in flow.
  * [x] Optional: Add text field inputs for sign in and create account forms
  * [x] Optional: Swipe the intro tutorial.
 
-GIF:<br>
 ![Alt text](https://cloud.githubusercontent.com/assets/6727159/12876170/474f4096-cdb0-11e5-84b5-eebbbe769c8f.gif)
 
 ## License
