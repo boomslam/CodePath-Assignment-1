@@ -7,15 +7,16 @@ Hours: 15
 Description: 
 Recreating the Dropbox new user registration flow and sign in flow. 
 
-Completed all requried and optional milestones
-Swipe the intro tutorial.
-Create a new account with the ability to type in text fields. 
-View terms of service. 
-View tabs for a new user. 
-Log out from settings screen. 
-View screen for trouble signing in to existing account.
-Sign in and view tabs for an existing account. 
-Favorite an existing file. 
+## Requirements
+ * [x] Required: Create a new account with the ability to type in text fields. 
+ * [x] Required: View terms of service. 
+ * [x] Required: View tabs for a new user. 
+ * [x] Required: Log out from settings screen. 
+ * [x] Required: View screen for trouble signing in to existing account.
+ * [x] Required: Sign in and view tabs for an existing account. 
+ * [x] Optional: Favorite an existing file. 
+ * [x] Optional: Add text field inputs for sign in and create account forms
+ * [x] Optional: Swipe the intro tutorial.
 
 ## License
 
