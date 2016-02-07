@@ -2,6 +2,8 @@
 
 Codepath week 1 assignment 
 
+Hours: 15
+
 Description: 
 Recreating the Dropbox new user registration flow and sign in flow. 
 
@@ -15,9 +17,7 @@ View screen for trouble signing in to existing account.
 Sign in and view tabs for an existing account. 
 Favorite an existing file. 
 
-
-Hours: 15
-
+## License
 
 The MIT License (MIT) Copyright (c) 2016 Jess Lam
 
