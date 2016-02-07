@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
     </dependencies>
     <scenes>
         <!--Welcome View Controller-->
@@ -164,7 +165,7 @@
                                         <barButtonItem key="leftBarButtonItem" title="Welcome" id="aQd-wd-W6w"/>
                                         <barButtonItem key="rightBarButtonItem" title="Create" id="6St-T3-Jof">
                                             <connections>
-                                                <segue destination="bWu-QB-wrc" kind="modal" id="KXd-3O-urr"/>
+                                                <segue destination="0Ie-gg-pyn" kind="modal" id="cXQ-SK-WAc"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -174,7 +175,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Sign Up" id="VPv-9g-6FU">
-                        <barButtonItem key="rightBarButtonItem" title="Create" id="oOJ-Su-yDe"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="zrq-ZL-JU9">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="a0j-hK-KjR">
+                                <rect key="frame" x="233" y="7" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Create"/>
+                                <connections>
+                                    <segue destination="0Ie-gg-pyn" kind="modal" id="HLf-PE-qF9"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lC7-qI-lCN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -329,11 +339,23 @@
                                 <items>
                                     <navigationItem title="Dropbox" id="7xY-wO-cf8">
                                         <barButtonItem key="leftBarButtonItem" title="Welcome" id="zGi-7n-YGi"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Sign In" id="Vaq-Ny-ECF">
-                                            <connections>
-                                                <segue destination="8Y9-ls-T0s" kind="modal" id="gWo-dJ-iDz"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <rightBarButtonItems>
+                                            <barButtonItem style="plain" id="up9-3h-gjL">
+                                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MS4-rJ-rxc">
+                                                    <rect key="frame" x="257" y="7" width="47" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Sign In"/>
+                                                    <connections>
+                                                        <segue destination="8Y9-ls-T0s" kind="modal" id="S8h-dN-qnt"/>
+                                                    </connections>
+                                                </button>
+                                            </barButtonItem>
+                                            <barButtonItem id="Vaq-Ny-ECF">
+                                                <connections>
+                                                    <segue destination="8Y9-ls-T0s" kind="modal" id="gWo-dJ-iDz"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </rightBarButtonItems>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -349,6 +371,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Sign In" id="nKR-JC-kb2">
                         <barButtonItem key="backBarButtonItem" title="welcome" id="Jv4-fU-xk7"/>
+                        <barButtonItem key="rightBarButtonItem" title="Sign In" id="WER-Pv-HER" userLabel="SIgn In">
+                            <connections>
+                                <segue destination="8Y9-ls-T0s" kind="modal" id="i4c-LU-qvt"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mah-z7-12R" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -706,7 +733,6 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aZP-8k-8Qy">
                                         <rect key="frame" x="18" y="699" width="268" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
                                         <connections>
                                             <segue destination="144-hB-5oD" kind="modal" id="8ey-mE-aKh"/>
                                         </connections>
@@ -1093,13 +1119,12 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gWo-dJ-iDz"/>
-        <segue reference="Gnc-iz-me1"/>
-        <segue reference="uV6-GI-sqg"/>
+        <segue reference="i4c-LU-qvt"/>
+        <segue reference="cNN-lf-Wb4"/>
         <segue reference="IAR-OW-Z0P"/>
-        <segue reference="NCa-ZH-aiS"/>
-        <segue reference="KXd-3O-urr"/>
+        <segue reference="r35-iq-a9u"/>
+        <segue reference="cXQ-SK-WAc"/>
+        <segue reference="8ey-mE-aKh"/>
         <segue reference="Ea5-zi-haF"/>
-        <segue reference="mZu-o9-7TN"/>
     </inferredMetricsTieBreakers>
 </document>
